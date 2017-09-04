@@ -8,10 +8,9 @@ spring:
     serialization:
       INDENT_OUTPUT: true
   datasource:
-    url: jdbc:postgresql://ec2-79-125-2-71.eu-west-1.compute.amazonaws.com:5432/da3gpcbe09bgck
-    username: nubqodyusoggvk
-    password: 2886d7d0c42f55914a275a7d221f43b54753bebc910e8d3598568da0196f7e48
-    platform: POSTGRESQL
+    url: jdbc:h2:mem:APP_USERS;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false
+    username: sa
+    password:
   jpa:
     hibernate:
       ddl-auto: create-drop
