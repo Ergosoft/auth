@@ -4,7 +4,7 @@
 
 	<groupId>pl.com.ergosoft</groupId>
 	<artifactId>auth</artifactId>
-	<version>0.0.7</version>
+	<version>0.0.8-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>auth</name>
@@ -28,9 +28,9 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/Ergosoft/auth.git</connection>
-		<developerConnection>scm:git:git@github.com:Ergosoft/auth.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/Ergosoft/auth.git</developerConnection>
 		<url>https://github.com/Ergosoft/auth</url>
-		<tag>auth-0.0.7</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
