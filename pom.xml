@@ -4,7 +4,7 @@
 
 	<groupId>pl.com.ergosoft</groupId>
 	<artifactId>auth</artifactId>
-	<version>0.0.6</version>
+	<version>0.0.7-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>auth</name>
@@ -24,14 +24,13 @@
 		<jjwt.version>0.7.0</jjwt.version>
 		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
 		<spock.version>1.1-groovy-2.4-rc-3</spock.version>
-		<project.scm.id>git</project.scm.id>
 	</properties>
 
 	<scm>
 		<connection>scm:git:https://github.com/Ergosoft/auth.git</connection>
 		<developerConnection>scm:git:git@github.com:Ergosoft/auth.git</developerConnection>
 		<url>https://github.com/Ergosoft/auth</url>
-		<tag>auth-0.0.6</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
