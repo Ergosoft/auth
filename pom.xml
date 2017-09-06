@@ -28,7 +28,7 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/Ergosoft/auth.git</connection>
-		<developerConnection>scm:git:https://github.com/Ergosoft/auth.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:Ergosoft/auth.git</developerConnection>
 		<url>https://github.com/Ergosoft/auth</url>
 		<tag>HEAD</tag>
 	</scm>
